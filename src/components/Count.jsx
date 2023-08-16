@@ -43,7 +43,7 @@ const CountNumber = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form style={{border: '1px splid red'}} onSubmit={handleSubmit}>
                 <input type="text"
                        value={name}
                        onChange={e => setName(e.target.value)} 
