@@ -3,7 +3,7 @@ import React, { useState as st, useEffect as ef } from 'react'
 function FetchAPI() {
     const [post, setPost] = st([])
     ef(() => {
-        fetch('https://jsonplaceholder.typicode.com/posts/1')
+        fetch('https://jsonplaceholder.typicode.com/posts/2')
             .then((resp) => resp.json())
             .then((data) => {
                 console.log(data)
